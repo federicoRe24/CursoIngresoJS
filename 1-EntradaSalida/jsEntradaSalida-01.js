@@ -3,6 +3,8 @@ Al presionar el  botón,
 se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
 function mostrar()
 {
-	alert("Pepe");
+	alert("Esto funciona de maravilla");
+	//confirm("Esto funciona de maravilla");
+	//prompt("Esto funciona de maravilla");
 }
 
