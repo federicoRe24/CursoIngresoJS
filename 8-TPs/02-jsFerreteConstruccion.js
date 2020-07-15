@@ -6,13 +6,46 @@ C.	Para hacer un contrapiso de 1m x 1m se necesitan 2 bolsas de cemento y 3 de c
 
 function Rectangulo () 
 {
+    var largoTerreno;
+    var anchoTerreno;
+    var hilosDeAlambre;
+    var perimetro;
+    var alambreTotal;
+
+    largoTerreno = txtIdLargo.value;
+    anchoTerreno = txtIdAncho.value;
+
+    largoTerreno = parseInt(largoTerreno);
+    anchoTerreno = parseInt(anchoTerreno);
+    hilosDeAlambre = 3;
+
+    perimetro = largoTerreno * 2 + anchoTerreno * 2;
+    alambreTotal = perimetro * hilosDeAlambre;
+
+    alert("Se deberían comprar " + alambreTotal + " metros de alambre.");
 
 }
 function Circulo () 
 {
+    var radioTerreno;
+    var hilosDeAlambre;
+    var cirunferencia;
+    var alambreTotal;
+
+    radioTerreno = txtIdRadio.value;
+
+    radioTerreno = parseInt(radioTerreno);
+    hilosDeAlambre = 3;
+    cirunferencia = 2 * Math.PI * radioTerreno; 
+
+    alambreTotal = cirunferencia * hilosDeAlambre;
+
+    alert("Se deberían comprar " + alambreTotal + " metros de alambre.");
 	
 }
 function Materiales () 
 {
-	
+    //Contrapiso
+    //Completar
+
 }
