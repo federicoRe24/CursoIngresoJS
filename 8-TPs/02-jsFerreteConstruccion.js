@@ -45,7 +45,22 @@ function Circulo ()
 }
 function Materiales () 
 {
-    //Contrapiso
-    //Completar
+    var largoTerreno;
+    var anchoTerreno;
+    var superficie;
+    var bolsasDeCemento;
+    var bolsasDeCal;
+
+    largoTerreno = txtIdLargo.value;
+    anchoTerreno = txtIdAncho.value;
+
+    largoTerreno = parseInt(largoTerreno);
+    anchoTerreno = parseInt(anchoTerreno);
+
+    superficie = largoTerreno * anchoTerreno;
+    bolsasDeCemento = superficie * 2;
+    bolsasDeCal = superficie * 3;
+
+    alert("Se deberían comprar " + bolsasDeCemento + " bolsas de cemento y " + bolsasDeCal + " bolsas de cal.");
 
 }
