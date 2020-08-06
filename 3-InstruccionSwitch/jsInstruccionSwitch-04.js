@@ -7,7 +7,6 @@ function mostrar()
 {
 	//tomo el mes
 	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
 	
 	switch(mesDelAño)
 	{
